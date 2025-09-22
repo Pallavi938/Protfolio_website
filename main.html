@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pallavi-Developer Protfolio</title>
+    <link rel="stylesheet" href="index.css">
+      
+  </head>
+  <body>
+    <header>
+      <hero>
+        <div class="left">Pallavi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </hero>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is
+          <span class="purple">Pallavi Chavan </span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="pallavi2.jpeg" alt="img icon" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <h1>My Skills</h1>
+        <div class="box1">
+          <div class="vertical">
+            <img src="python.jpeg" alt="python icon" class="python" />
+            <h2>Python</h2>
+          </div>
+          <div class="vertical">
+            <img src="html.jpeg" alt="html icon" class="html" />
+            <h2>HTML</h2>
+          </div>
+
+          <div class="vertical">
+            <img src="css.jpeg" alt="" class="css" />
+            <h2>CSS</h2>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="vertical">
+            <img src="js.jpeg" alt="js icon" class="js" />
+            <h2>JavaScript</h2>
+          </div>
+          <div class="vertical">
+            <img src="sql.jpeg" alt="sql icon" class="sql" />
+            <h2>PostgreSQL</h2>
+          </div>
+          <div class="vertical">
+            <img src="powerbi.jpeg" alt="powerbi icon" class="powerbi" />
+            <h2>Powerbi</h2>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <section class="projects-section">
+        <!-- Projects Section -->
+        <div class="box">
+          <h2>My Projects</h2>
+        </div>
+        
+        <div class="projects">
+          <div class="project-card">
+            <h3>Depression Detection System</h3>
+            <p>
+              Machine learning project that detects depression using facial
+              emotion recognition . Built with Python, React, and PostgreSQL.
+            </p>
+            <a
+              href="https://github.com/yourusername/depression-detection"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+              Designed and developed a personal portfolio using HTML, CSS, and
+              JavaScript to showcase skills and projects.
+            </p>
+            <a href="https://yourportfolio.com" target="_blank">View Project</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Data Visualization with Power BI</h3>
+            <p>
+              Analyzed business data and created interactive dashboards in Power
+              BI for sales insights and reporting.
+            </p>
+            <a href="#" target="_blank">View Project</a>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="contact">
+        <!-- Contact Section -->
+        <div class="contact">
+          <h2>Contact Me</h2>
+          <form
+            class="contact-form"
+            action="mailto:pallavichavan2411@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+
+          <!-- Personal Info -->
+          <div class="personal-info">
+            <p><strong>Name:</strong> Chavan Pallavi Dnyaneshwar</p>
+            <p><strong>Contact No:</strong> 8010688719</p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:pallavichavan2411@gmail.com"
+                >pallavichavan2411@gmail.com</a
+              >
+            </p>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/pallavi-chavan-897482323"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a href="mailto:pallavichavan2411@gmail.com">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer HTML -->
+    <footer>© 2025 Pallavi Chavan | All Rights Reserved</footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Data Analyst", "SQL Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
